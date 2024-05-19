@@ -21,9 +21,9 @@
 	cb = checkout -b 
 
 
-  po = pull origin 
+        po = pull origin 
 
-  pom = pull origin master 
+        pom = pull origin master 
 
 	poc = !git pull origin $(git bc) 
 
@@ -46,8 +46,8 @@
 	cm = commit -m 
 
 
-  pso = push origin 
-  psoc = !git push origin $(git bc) 
+        pso = push origin 
+        psoc = !git push origin $(git bc) 
  
  
 	rs = reset --soft 
